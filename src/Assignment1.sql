@@ -64,6 +64,7 @@ JOIN product ON sales.product_id = product.product_id
 GROUP BY sales.userid, product_name;
 
 --9. the most purchased item of each customer and how many times the customer has purchased it
+-- output should have 2 columns count of the items as item_count and customer name
 
 SELECT userid, COUNT(product_name)as count_item
 FROM sales
@@ -90,7 +91,7 @@ select * from uers where userid like 'm%';
 
  EXEC sp_rename 'product.price', 'price_value','column'
 
---15. Change the Column value product_name – Ipad to Iphone from product table
+--15. Change the Column value product_name â€“ Ipad to Iphone from product table
 
 UPDATE product set product_name='Iphone'
 WHERE product_name='Ipad';
