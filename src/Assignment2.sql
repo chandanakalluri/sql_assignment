@@ -1,4 +1,4 @@
-use ecommerce
+ use ecommerce
 create table product_detail(sell_date date, product varchar(20));
 INSERT INTO product_detail VALUES('2020-05-30', 'Headphones'),
 ('2020-06-01','Pencil'),
