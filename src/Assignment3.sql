@@ -1,3 +1,4 @@
+--Find the total salary of each department
 USE ecommerce
 CREATE TABLE dept_tbl(id_deptname varchar(30), emp_name varchar(20), salary int);
 INSERT INTO dept_tbl values('1111-MATH', 'RAHUL', 10000),
