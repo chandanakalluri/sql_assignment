@@ -129,4 +129,5 @@ INSERT INTO product VALUES(3,'Laptop',330);
 SELECT product_id, COUNT(*) AS duplicates
 FROM product
 GROUP BY product_id
-HAVING COUNT(*) > 1; 
+HAVING COUNT(*) > 1;
+#
